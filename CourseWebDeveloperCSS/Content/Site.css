@@ -1,0 +1,39 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*********   CURSO CSS   ***********/
+h1 {
+    font-family: 'Comic Sans MS';
+}
+
+h1, p {
+    color: #006699;
+}
+
+.destaque {
+    color: #CC0000;
+}
+
+.detalhe {
+    text-decoration: underline;
+}
+
+#introducao {
+    background-color: #FFCC33;
+}
+
+em[title=empresa] {
+    color: #336600;
+    font-size: 20px;
+}
+
+/*em[title=empresa] - Captura o atributo com o nome 'empresa'*/ 
+/*em[title~=empresa] - Captura o atributo com o nome 'empresa' independente se tenha ou não outro nome antes ou depois da palavra*/ 
